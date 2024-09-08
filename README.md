@@ -195,7 +195,7 @@ Inside the `nano` editor, paste the below example configuration and replace
 * `Europe/Berlin` with the correct timezone (if you are not based in the Berlin timezone)
 
 ```
-version: '2'
+version: '2.1'
 
 services:
   n8n:
