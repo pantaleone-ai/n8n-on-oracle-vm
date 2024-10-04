@@ -226,6 +226,18 @@ Now we can start n8n using the below command:
 docker-compose up --detach
 ```
 
+fix permissions
+```
+sudo chown -R 1000:1000 /path/to/your/n8n/volumes
+sudo chmod -R 755 /path/to/your/n8n/volumes
+```
+
+restart containers
+```
+docker-compose down
+docker-compose up -d
+```
+
 n8n should now start in the background. Give it a few moments to do so, then check that it has started correctly by looking at its output using below command:
 
 ```
