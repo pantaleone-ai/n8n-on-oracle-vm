@@ -234,6 +234,7 @@ sudo chmod -R 755 /path/to/your/n8n/volumes
 
 restart containers
 ```
+cd <N8N_DIRECTORY>
 docker-compose down
 docker-compose up -d
 ```
