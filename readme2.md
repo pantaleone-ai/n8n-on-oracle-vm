@@ -1,4 +1,3 @@
-Below is the detailed, step-by-step guide for setting up an Oracle Cloud Infrastructure (OCI) instance and installing your Docker Compose setup, converted into Markdown format. This guide ensures clarity and completeness while aligning with your live docker-compose.yml configuration, which includes services like n8n, postgres, ollama, qdrant, llamacpp, openwebui, traefik, prometheus, grafana, redis, and crawl4ai. Sensitive values have been replaced with placeholders for security.
 
 Setting Up Your AI Stack on Oracle Cloud Infrastructure (OCI) with Docker Compose
 This guide provides detailed instructions for creating an OCI instance and deploying your multi-service Docker Compose setup using Ubuntu 22.04. It builds on the foundation from pantaleone-ai/n8n-on-oracle-vm but is tailored to your specific configuration, using Traefik for reverse proxy and SSL/TLS.
