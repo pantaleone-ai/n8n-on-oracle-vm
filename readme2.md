@@ -1,4 +1,4 @@
----
+
 
 # Setting Up Your AI Stack on Oracle Cloud Infrastructure (OCI) with Docker Compose
 
@@ -10,8 +10,6 @@ This guide provides step-by-step instructions for creating an OCI instance and d
 - A domain name (e.g., `yourdomain.com`) with access to its DNS settings (e.g., via Namecheap, GoDaddy, or Google Domains).
 - Basic familiarity with SSH and terminal commands.
 - Your live `docker-compose.yml` file, which includes services such as `n8n`, `postgres`, `ollama`, `qdrant`, `llamacpp`, `openwebui`, `traefik`, `prometheus`, `grafana`, `redis`, and `crawl4ai`.
-
----
 
 ## Step 1: Sign Up for Oracle Cloud and Create a Compute Instance
 
